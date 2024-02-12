@@ -1,0 +1,156 @@
+*{
+  animation: fadetela 1s ease-in-out; 
+}
+
+body{
+    margin: 0;
+    background:black;
+    overflow: hidden;
+}
+@keyframes fadetela {
+  0% {
+      opacity: 0.8;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+
+
+
+.fundo{
+ 
+        max-width: 1920px !important;
+        max-height: 1080px !important;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow: hidden;
+       
+    
+}
+#cabecalho{
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: -53px; 
+  height: 100%;
+}
+#cabecalho img{
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+#tela{
+    animation: zoom 20s infinite;
+}
+.logo{
+  position: absolute;
+  margin-left: 1601px;
+  background-color: #00233c00;
+  bottom:10px;
+
+ 
+  border:#ffffff00;
+}
+
+
+.btnconheca{
+  position: absolute;
+  top: 300px;
+  animation: go-back 2.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+  
+}
+
+.btnestrutura{
+  position: absolute;
+  top: 430px;
+  animation: go-back 2.2s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+ 
+.btnapartamento{
+  position: absolute;
+  top: 560px;
+  animation: go-back 1.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+ 
+.btnlocal{
+  position: absolute;
+  top: 690px;
+  animation: go-back 1.2s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+
+.btnimagem{
+  position: absolute;
+  top: 820px;
+  animation: go-back 0.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+
+.btnhub {
+	position: absolute;
+	top: 939px;
+	animation: go-back 0.7s;
+	background-color: #aa5525;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+	border: #aa5525;
+	z-index: 999;
+}
+
+
+
+
+
+@keyframes go-back {
+  from {
+    transform: translateX(-250px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+@keyframes go-selec {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(55px);
+    }
+  } 
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.07);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

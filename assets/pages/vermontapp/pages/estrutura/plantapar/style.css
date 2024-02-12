@@ -1,0 +1,419 @@
+*{
+  max-height: 1080px!important;
+  max-width: 1920px !important;
+  overflow:hidden;
+  
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../src/img/imagens/ituloplanta2.png');
+   
+}
+
+
+
+#inativo img{
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 285px;
+  animation: rote 1.7s infinite alternate;
+}
+.impar{
+  position: absolute;
+  margin-left: 450px;
+  background-color: #8d452300;
+  bottom: 240px;
+ 
+  animation: fadeIn 1s ease-in-out;
+  border:#8d452300;
+  z-index: 999;
+}
+.par{
+  position: absolute;
+  margin-left: 450px;
+  background-color: #8d452300;
+  bottom: 180px;
+
+  animation: fadeIn 1s ease-in-out;
+  border:#8d452300;
+  z-index: 999;
+}
+
+#cabecalho{
+  
+  z-index: 999;
+  margin-top: -1060px;
+  animation: fadeIn 1s ease-in-out, go-topes 2.7s;
+
+}
+
+
+
+#img{
+
+  margin-top: 260px;
+  margin-left: 600px;
+
+}
+
+#fundo {
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+  .btnconheca{
+    position: absolute;
+    top: 330px;
+    background-color: #36363700;
+    margin-left: -10px;
+    border: #36363700;
+    z-index: 999;
+    animation: go-back 2.2s;
+    
+}
+.btnestrutura{
+    position: absolute;
+    top: 450px;
+    margin-left: -20px;
+    animation: go-back 1.7s;
+    background-color: #36363700;
+   
+    border: #36363700;
+    z-index: 999;
+    
+}
+.btnimagens{
+    position: absolute;
+    top: 570px;
+    animation: go-back 1.2s;
+    background-color: #36363700;
+    margin-left: -10px;
+    border: #36363700;
+    z-index: 999;
+    
+}
+.btnvista{
+    position: absolute;
+    top: 690px;
+    animation: go-back 1s;
+    background-color: #36363700; 
+    margin-left: -10px;
+    border: #36363700;
+    z-index: 999;
+    
+}
+
+.btnvoltar{
+    position: absolute;
+    margin-left: 45px;
+    background-color: #36363700;
+    bottom: 10px;
+   
+    animation:go-top 2.7s;
+    border:#36363700;
+    z-index: 999;
+
+}
+
+.btnsuste{
+    position: absolute;
+    margin-left: 265px;
+    background-color: #363637;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#363637;
+    z-index: 999;
+
+}
+
+.btntec{
+    position: absolute;
+    margin-left: 620px;
+    background-color: #363637;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#363637;
+    z-index: 999;
+
+}
+
+.btndife{
+    position: absolute;
+    margin-left: 1020px;
+    background-color: #363637;
+    bottom: -25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#363637;
+    z-index: 999;
+
+}
+
+.btnplantapa{
+
+    position: absolute;
+    margin-left: 1230px;
+    background-color: #8d4423;
+    bottom: -25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#8d4423;
+    z-index: 999;
+
+}
+.btnplantape{
+
+    position: absolute;
+    margin-left: 1440px;
+    background-color: #363637;
+    bottom: -25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#363637;
+    z-index: 999;
+
+}
+
+.btnplantapesuite{
+
+    position: absolute;
+    margin-left: 1650px;
+    background-color: #363637;
+    bottom: -25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#363637;
+    z-index: 999;
+
+}
+
+
+
+#img{
+  position: relative;
+
+
+}
+
+#img img{
+  margin-top: 0px;
+  margin-left: -30px;
+}
+
+
+#imagens1 {background: black;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 1020px;
+  width:950px;
+  height: 760px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.494);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.2);
+  animation:go-direita 2.7s;
+  display: none;
+  z-index: -1;
+  
+  
+}
+
+#imagens1 img{
+    
+  width: 100%;
+  height: 95%;
+  margin: 0;
+  float: right;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
+
+
+#banheiro{
+  background-color: #362e2c;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position:relative;
+  bottom: 460px;
+  left: 1050px;
+  border: 0 none;
+  outline: 0;
+  transition: width 1s, height 1s,  background-color 1s;
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  z-index: 999;
+  color:white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ font: 20px bold;
+ cursor: pointer;
+ font-family: Barlow-Bold;
+  
+}
+
+#banheiro:focus {
+  background-color: #ab5522;
+  transition: width 1s, height 1s,  background-color 1s;
+  width: 45px;
+  height:45px;
+  position: relative;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  border: 0 none;
+  outline: 0;
+  font-family: Barlow-Bold;
+}
+
+.quarto {
+  background-color: #362e2c;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position:relative;
+  bottom: 550px;
+  left: 1065px;
+  border: 0 none;
+  outline: 0;
+  transition: width 1s, height 1s,  background-color 1s;
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  z-index: 999;
+  color:white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ font: 20px bold;
+ cursor: pointer;
+ font-family: Barlow-Bold;
+  
+}
+
+.quarto:focus {
+  background-color: #ab5522;
+  transition: width 1s, height 1s,  background-color 1s;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  border: 0 none;
+  outline: 0;
+  font-family: Barlow-Bold;
+}
+.logo{
+  position: absolute;
+  margin-left: 1601px;
+  background-color: #00233c00;
+  bottom:10px;
+
+ 
+  border:#ffffff00;
+}
+
+@keyframes go-topes {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes go-top {
+    from {
+      transform: translateY(40px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+
+@keyframes go-back {
+    from {
+      transform: translateX(-250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+  @keyframes go-right {
+    from {
+      transform: translateX(250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+
+  @keyframes go-back-barra {
+    from {
+      transform: translateX(-550px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  
+  }
+  100% {
+    transform: scale(1.3);
+    
+  }
+}
+
+
+@keyframes rote {
+  from {
+    transform: rotate(-45deg);
+}
+to { 
+    transform: rotate(45deg);
+}
+    
+  }
+
+  @keyframes go-direita {
+    from {
+      transform: translateX(300px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+  @font-face {
+    font-family: Barlow-Bold;
+    src: url('../../../src/biblioteca/Barlow-Bold.ttf');
+  }

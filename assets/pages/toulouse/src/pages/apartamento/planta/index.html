@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="../../../assets/img/planta_tela.png" as="image"> 
+    <link rel="preload" href="../../../assets/img/planta1.png" as="image"> 
+    <script src="../../../assets/biblioteca/jquery.mine.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Planeta</title>
+</head>
+<body>
+<div class="fundo">
+ 
+
+  
+<div id="imagens1">
+    
+</div>
+
+<div id="imgplan">
+    <div id="img">
+        <img src="../../../assets/img/planta1.png" onclick="clickimg()">
+    </div>
+    
+    <input id="sala" value="1"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../assets/img/Perspectivasilustradas.png" onclick="funcao_a();CarregaImagens($('#imagens1'), $(this))">
+    
+    <input class="quarto" value="2"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../assets/img/Perspectivasilustradas2.png" onclick="funcao_a();CarregaImagens($('#imagens1'), $(this))">
+
+    <input class="varanda" value="3"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../assets/img/Perspectivasilustradas1.png" onclick="funcao_a();CarregaImagens($('#imagens1'), $(this))">
+      
+  
+    </div>
+    <div id="cabecalho"><img src="../../../assets/img/cima.png"></div>
+
+
+    <div id="circle"><img src="../../../assets/img/circle.png"></div>
+
+<div id="conheca">
+  <form method="POST">
+      <button class="btnconheca"  type="button" onClick="btnconheca()"><img src='../../../assets/img/btn_logo/conheca_btn.png'> </button>
+  </form>
+</div>
+
+
+
+<div id="estrutura">
+  <form method="POST">
+      <button class="btnestrutura"  type="button" onClick="btnestrutura()"><img src='../../../assets/img/btn_logo/estrutura_btn.png'> </button>
+  </form>
+</div>
+
+<div id="estrutura">
+  <form method="POST">
+      <button class="btnestrutura"  type="button" onClick="btnestrutura()"><img src='../../../assets/img/btn_logo/estrutura_btn.png'> </button>
+  </form>
+</div>
+
+
+<div id="apartamento">
+  <form method="POST">
+      <button class="btnapartamento"  type="button" onClick="btnapartamento()"><img src='../../../assets/img/btn_logo/aparto_selec.png'> </button>
+  </form>
+</div>
+
+<div id="local">
+  <form method="POST">
+      <button class="btnlocal"  type="button" onClick="btnlocal()"><img src='../../../assets/img/btn_logo/btnlocal.png'> </button>
+  </form>
+</div>
+
+<div id="imagem">
+  <form method="POST">
+      <button class="btnimagem"  type="button" onClick="btnimagem()"><img src='../../../assets/img/btn_logo/btnimagem.png'> </button>
+  </form>
+</div>
+
+<div id="voltar">
+  <form method="POST">
+    <button class="voltar" type="button" onClick="history.go(-1)">
+      <img src="../../../assets/img/btn_logo/voltar.png" />
+    </button>
+  </form>
+</div>
+
+<div id="diferencial">
+  <form method="POST">
+    <button class="diferencial" type="button" onClick="dife()">
+      <img src="../../../assets/img/btn_logo/difencial.png" />
+    </button>
+  </form>
+</div>
+
+<div id="personaliza">
+  <form method="POST">
+    <button class="personaliza" type="button" onClick="perso()">
+      <img src="../../../assets/img/btn_logo/PERSONALIZA.png" />
+    </button>
+  </form>
+</div>
+
+<div id="logo">
+  <form method="POST">
+    <button class="logo" type="button">
+      <img src="../../../assets/img/PLANETA_LOGO_NOVO1.png" />
+    </button>
+  </form>
+</div>
+
+
+</div>
+<script src="./function.js"></script>
+
+</body>
+</html>

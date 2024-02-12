@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href='../../../src/img/btn/btnconceito.png' as='image'> 
+    <link rel="preload" href='../../../src/img/btn/btnconheca_selec.png' as="image">
+    <link rel="preload" href='../../../src/img/btn/btnbaixolocal.png' as="image"> 
+    <link rel="preload" href='../../../src/img/btn/btnbaixoarqui.png' as="image"> 
+    <link rel="preload" href='../../../src/img/btn/btnestrutura.png' as="image"> 
+    <link rel="preload" href='../../../src/img/btn/btnimagens.png' as="image"> 
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Vermont</title>
+</head>
+<body>
+<div id="fundo">
+  <div id="cabecalho">
+    <img src="../../assets/fundo-conheca-facilities.png" alt="image">
+  </div>
+<div id="cabecalholista">
+<img src="../../../src/img/imagens/titulolistafaci.png" alt="img">
+</div>
+  <div class="container">
+     
+    <input class="box1" value="Painéis fotovoltaicos"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_1_paineis_foto.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+    <input class="box2" value="Iluminação da área comum em LED"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_2_ilum_led.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >  
+
+    <input class="box1" value="Sistema com dupla descarga (Dual Flush)"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_3_sistema_dupla.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >  
+
+    <input class="box2" value="Uso de madeiras certificadas"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_4_madeira_cert.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >   
+
+    <input class="box1" value="Reuso água pluvial"  readonly alt='Submit' name="Btn" id="Btn"   imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_5_reuso.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >   
+
+    <input class="box2" value="Coleta seletiva de matéria orgânica e reciclável"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_6_coleta.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >   
+
+    <input class="box1" value="Tomada para recarga de carros movidos a eletricidade"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_7_carro_recarga.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >   
+
+    <input class="box2" value="Bicicletário e tomada para bicicleta elétrica"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_8_bike.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >  
+
+    <input class="box1" value="Horta, pomar e espaço piquenique"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_9_horta.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >  
+
+    <input class="box2" value="Portaria blindada"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_10_porta.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >  
+
+    <input class="box1" value="Clausura para acesso de pedestres"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_11_pedreste.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >  
+
+    <input class="box2" value="Clausura para acesso de veículos"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_12_veiculos.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box1" value="Sistema de identificação inteligente nos elevadores"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_13_elevator.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box2" value="Gerador de energia"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_14_power.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box1" value="Quadra de tênis oficial"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_15_tenis.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box2" value="Quadra com grama natural"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_16_grama.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+    
+    <input class="box1" value="Fitness"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_17_fitness.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box2" value="Piscina com raia"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_18_raia.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box1" value="Espaço gourmet"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_19_gourmet.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box2" value="Espaço teen"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_20_teen.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box1" value="Sauna a vapor"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_21_sauna.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box2" value="Sala de massagem"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_22_massagem.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+    <input class="box1" value="Studio pilates"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_23_pilates.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+    <input class="box2" value="Pet garden"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_24_petg.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+    <input class="box1" value="Salão multiuso"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_25_mult.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+    <input class="box2" value="Playground"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_27_play.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >
+
+    <input class="box1" value="Infraestrutura para Wi-Fi"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_28_wifi.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+    <input class="box2" value="Piscina com borda infinita"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_29_infi.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+    <input class="box1" value="Churrasqueira, módulo de fogão e forno de pizza"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_30_churras.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  >  
+
+    <input class="box2" value="Espaço 18+"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_31_+18.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+    <input class="box1" value="Espaço crossfit"  readonly alt='Submit' name="Btn" id="Btn" imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_32_cross.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+    <input class="box2" value="Espaço bem-estar e oficina compartilhada"  readonly alt='Submit' name="Btn" id="Btn"  imagens="../../../src/img/imagens/DIFERENCIAIS_ESTRUTURA_33_bem.png" onclick="funcao_a();CarregaImagens($('#item'), $(this))"  > 
+
+  
+</div>
+<div id="image"> 
+  
+  <div id="inativo">
+    <img id="icon" src="../../../src/img/imagens/icon2.png" alt="img">
+    </div>
+
+  <div id="items-wrapper">
+      <div id="items"  >
+
+        <div id="item" > </div>
+
+    
+      </div>
+
+    
+    </div>
+
+
+  
+    <img id="inicio" src="../../../src/img/imagens/DIFERENCIAIS_CONHECA_IMAGEM.png" alt="img">
+  
+    
+  </div>
+   
+        <div id="conheca">
+            <form method="POST">
+                <button class="btnconheca" type="button" onClick="btnconhaca()"><img src='../../assets/btn-conheca-og.png'> </button>
+            </form>
+        </div>
+        <div id='barra'>
+          <img src='../../../src/img/imagens/barra.png'>
+        </div>
+
+        <div id="estrutura">
+            <form method="POST">
+                <button class="btnestrutura" type="button" onClick="btnestrutura()"><img src='../../assets/btn-estrutura.png'> </button>
+            </form>
+        </div>
+
+        <div id="imagens">
+            <form method="POST">
+                <button class="btnimagens" type="button" onClick="btnimagens()"><img src='../../assets/btn-imagens.png'> </button>
+            </form>
+        </div>
+        
+        <!-- <div id="vista">
+          <form method="POST">
+              <button class="btnvista" type="button" onClick="btnvista()"><img src='../../assets/btn-vista.png'> </button>
+          </form>
+      </div> -->
+
+        <div id="conceito">
+            <form method="POST">
+              <button class="btnconceito" type="button" onClick="conceito()">
+                <img src="../../assets/btn-conceito-bk.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="ficha">
+            <form method="POST">
+              <button class="btnficha" type="button" onClick="ficha()">
+                <img src="../../assets/btn-ficha-bk.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="aquitetura">
+            <form method="POST">
+              <button class="btnarqui" type="button" onClick="arqui()">
+                <img src="../../assets/btn-arquitetura-bk.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="facilites">
+            <form method="POST">
+              <button class="btnfacilits" type="button" onClick="facilites()">
+                <img src="../../assets/btn-facilities-og.png" />
+              </button>
+            </form>
+          </div>
+
+     
+
+          <div id="voltar">
+            <form method="POST">
+              <button class="btnvoltar" type="button" onClick="history.go(-1)">
+                <img src="../../assets/btn-voltar.png" />
+              </button>
+            </form>
+          </div>
+
+
+
+
+
+
+    </div>
+
+    <script src="./function.js"></script>
+    <script>
+
+      var inatividade = document.getElementById("inativo");
+      var inicio = document.getElementById("inicio")
+      
+      function funcao_a(){
+        inicio.style.display = "none";
+      $(function() { //onload
+         setEvent();
+          
+      });
+      
+      $(document).on('touchstart touchmove', function() { //mouse move 
+          if (timeout !== null) {
+            inatividade.style.display = "none";
+              clearTimeout(timeout); //clear no timer
+          }
+          setEvent(); //seta ele novamente para caso aja inatividade faça o evento
+      });
+      
+      function setEvent(){
+          timeout = setTimeout(function() {
+            inatividade.style.display = "block";
+          }, 7000); 
+      }
+      }
+
+    var segundos = 0;
+var timer = setInterval(testarInteracao, 1000); //1000 ms = 1 segundo
+
+function testarInteracao(){
+    segundos+= 1;
+    
+    if(segundos == 300){ //Limite máximo em Segundos
+        window.location.href = "../../../index.html";
+    } 
+    
+  
+}
+
+$(document).on("click keydown keyup mousemove", function(){
+    segundos = 0;
+})
+          </script>
+</body>
+</html>

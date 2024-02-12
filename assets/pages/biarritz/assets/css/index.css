@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body { 
+    width: 100%;
+    height: 100%;
+}
+
+.scene-1 {
+    width: 100%;
+    height: 100%;
+/* video */
+
+    z-index: 10;
+}
+
+
+.btn-conheca {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../image/btn-conheca-select.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 32%;
+	left: 0%;
+
+}
+
+.btn-estrutura {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../image/btn-estrutura.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 41.5%;
+	left: 0%;
+}
+
+.btn-apartamentos {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../image/btn-apartamentos.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 51.5%;
+	left: 0%;
+}
+.btn-voltar {
+	width: 8.5%;
+	height: 6.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../image/btn-voltar.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 90%;
+	left: 0%;
+	z-index: 100;
+}
+.btn-localizacao {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../image/btn-localizacao.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 61.5%;
+	left: 0%;
+}
+
+.btn-imagens {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../image/btn-imagens.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 71.5%;
+	left: 0%;
+}
+
+
+.cabecalho {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/cabecalho.png');
+    /* border: 1px solid red; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+}
+
+.btn-conceito {
+	width: 14%;
+	height: 6.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../image/btn-conceito-select.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 90%;
+	left: 17%;
+	z-index: 100;
+    display: block;
+}
+
+.btn-conceito-2 {
+	width: 14%;
+	height: 6.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../image/btn-conceito.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 90%;
+	left: 17%;
+	z-index: 100;
+    display: none;
+}
+
+
+.btn-ficha {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/btn-ficha.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 33%;
+    z-index: 100;
+    display: block;
+}
+
+.btn-ficha-2 {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/btn-ficha-select.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 33%;
+    z-index: 100;
+    display: none;
+}
+
+
+.btn-arquitetura {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/btn-arquitetura.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 49%;
+    z-index: 100;
+    display: block;
+
+}
+.btn-arquitetura-2 {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/btn-arquitetura-select.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 49%;
+    z-index: 100;
+    display: none;
+
+}
+
+.btn-beneficios {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/btn-beneficios.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 65%;
+    z-index: 100;
+    display: block;
+}
+
+.btn-beneficios-2 {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/btn-beneficios-select.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 65%;
+    z-index: 100;
+    display: none;
+}
+
+
+.scene-2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/fundo-ficha.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+}
+
+.scene-3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/fundo-arquitetura.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+}
+
+.scene-4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../image/fundo-beneficios.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+}

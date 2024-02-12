@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <script src="../../../src/biblioteca/jquery.mine.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Vermont</title>
+</head>
+<body>
+<div id="fundo">
+  <div id="cabecalho">
+    <img src="../../assets/fundo-cabecalho.png" alt="image">
+  </div>
+  <div class="flex-box">
+    <div class="content-box"><img src='../../assets/fundo-bolatorio-2.png'>
+    </div> 
+  </div>
+  <div class="legenda-1"></div>
+  <style>
+
+.legenda-1 {
+	width: 38%;
+	height: 3%;
+	position: absolute;
+	background: url('../../assets/fundo-legenda.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 26%;
+	left: 26%;
+}
+  </style>
+  <div id="txtficha">
+    <img src="../../../src/img/imagens/legenda.png" alt="iamge">
+   </div>
+  <div class="predio"><img src='../../assets/fundo-bolatorio.png'></div>
+ 
+       
+        <div id="conheca">
+            <form method="POST">
+                <button class="btnconheca" type="button" onClick="btnconhaca()"><img src='../../assets/btn-conheca.png'> </button>
+            </form>
+        </div>
+
+        <div id="estrutura">
+            <form method="POST">
+                <button class="btnestrutura" type="button" onClick="btnestrutura()"><img src='../../assets/btn-estrutura.png'> </button>
+            </form>
+        </div>
+
+        <div id="imagens">
+            <form method="POST">
+                <button class="btnimagens" type="button" onClick="btnimagens()"><img src='../../assets/btn-imagens-og.png'> </button>
+            </form>
+        </div>
+
+        <!-- <div id="vista">
+          <form method="POST">
+              <button class="btnvista" type="button" onClick="btnvista()"><img src='../../assets/btn-vista.png'> </button>
+          </form>
+      </div> -->
+      
+          <div id="voltar">
+            <form method="POST">
+              <button class="btnvoltar" type="button" onClick="history.go(-1)">
+                <img src="../../assets/btn-voltar.png" />
+              </button>
+            </form>
+          </div>
+
+
+          
+
+
+
+    </div>
+
+    <script src="./function.js"></script>
+    
+</body>
+</html>

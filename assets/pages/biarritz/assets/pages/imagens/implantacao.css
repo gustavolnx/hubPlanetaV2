@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body { 
+    width: 100%;
+    height: 100%;
+}
+
+.scene-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/fundo-implantacao.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+}
+
+
+.btn-conheca {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-conheca.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 32%;
+	left: 0%;
+
+}
+
+.btn-estrutura {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-estrutura.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 41.5%;
+	left: 0%;
+}
+
+.btn-apartamentos {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-apartamentos.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 51.5%;
+	left: 0%;
+}
+
+.btn-localizacao {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-localizacao.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 61.5%;
+	left: 0%;
+}
+
+.btn-imagens {
+	width: 16%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-imagens-select.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 71.5%;
+	left: 0%;
+}
+
+
+
+.btn-sustentabilidade {
+	width: 14%;
+	height: 6.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-sustentabilidade-select.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 90%;
+	left: 17%;
+	z-index: 100;
+    display: block;
+}
+
+.btn-sustentabilidade-2 {
+	width: 14%;
+	height: 6.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-sustentabilidade.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 90%;
+	left: 17%;
+	z-index: 100;
+    display: none;
+}
+
+
+.btn-tecnologia {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/btn-tecnologia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 33%;
+    z-index: 100;
+    display: block;
+}
+
+.btn-tecnologia-2 {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/btn-tecnologia-select.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 33%;
+    z-index: 100;
+    display: none;
+}
+
+
+.btn-btz {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/btn-btz.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 49%;
+    z-index: 100;
+    display: block;
+
+}
+.btn-btz-2 {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/btn-btz-select.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 49%;
+    z-index: 100;
+    display: none;
+
+}
+
+.btn-beneficios {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/btn-beneficios.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 65%;
+    z-index: 100;
+    display: block;
+}
+
+.btn-beneficios-2 {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/btn-beneficios-select.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 65%;
+    z-index: 100;
+    display: none;
+}
+
+
+.btn-voltar {
+	width: 8.5%;
+	height: 6.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-voltar.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 90%;
+	left: 0%;
+	z-index: 100;
+}
+
+.scene-2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/fundo-tecnologia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+}
+
+.scene-3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/fundo-btz.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+}
+
+
+
+.btn-implantacao {
+	width: 13%;
+	height: 12.9%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-implantacao.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 90%;
+	left: 12.5%;
+	rotate: 20%;
+	/* transform: rotate(90deg); */
+}

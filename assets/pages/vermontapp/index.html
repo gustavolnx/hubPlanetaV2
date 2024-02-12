@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preload" href='src/img/btn/btnconheca.png' as="image"> 
+    <link rel="preload" href='src/img/btn/btnestrutura.png' as="image"> 
+    <link rel="preload" href='src/img/btn/btnimagens.png' as="image"> 
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <title>Vermont</title>
+</head>
+<body>
+
+    <div id="fundo">
+
+        <div id="tela">
+            <div id="video-bg">
+                <video id="Videobox" preload="auto" autoplay loop muted playsinline >
+                    <!-- Default video source: -->
+                    <source type="video/mp4" src="./pages/assets/video-inicial.mp4" media="(orientation:landscape)">
+                </video>
+            </div>
+        </div>
+
+
+        <div id="tela1">
+            <div id="video-bg1">
+                <video id="Videobox1"  autoplay loop muted playsinline>
+                    <!-- Default video source: -->
+                    <source type="video/mp4" src="src/video/PLANETA DESCANSO DE TELA.mp4" media="(orientation:landscape)">
+                </video>
+            </div>
+        </div>
+
+
+
+        <div id="conheca">
+            <form method="POST">
+                <button class="btnconheca" type="button" onClick="btnconhaca()"><img src='./pages/assets/btn-conheca.png'> </button>
+            </form>
+        </div>
+
+        <div id="estrutura">
+            <form method="POST">
+                <button class="btnestrutura" type="button" onClick="btnestrutura()"><img src='./pages/assets/btn-estrutura.png'> </button>
+            </form>
+        </div>
+
+        <div id="imagens">
+            <form method="POST">
+                <button class="btnimagens" type="button" onClick="btnimagens()"><img src='./pages/assets/btn-imagens.png'> </button>
+            </form>
+        </div>
+
+        <div id="vista">
+            <form method="POST">
+                <button class="btnvista" type="button" onClick="btnvista()"><img src='./pages/assets/btn-vista.png'> </button>
+            </form>
+        </div>
+
+       
+    </div>
+    <div class="btnVoltar" onclick="history.back()"></div>
+
+    <script src="./function.js"></script>
+
+    <script>
+
+    const video = document.getElementById('Videobox');
+
+    video.addEventListener('loadmetadata', function(){
+        if(video.buffered.length === 0 ) return;
+
+        const bufferedSeconds =  video.buffered.end(0) - video.buffered.start(0);
+        console.log(` ${bufferedSeconds} seconds of video are to play.`);
+    })
+
+document.getElementById('Videobox1').style.display="none"
+
+$(document).ready(function() {
+    var timeout = setTimeout(showTela, 300000);
+  
+    $(document).mousedown(onEvent);
+    $(document).keydown(onEvent);
+    $(document).click(onEvent);
+
+
+    function onEvent() {
+        $('#tela1').hide();
+        document.getElementById('Videobox1').style.display="none"
+        clearTimeout(timeout);
+        timeout = setTimeout(showTela,  300000);
+    }
+
+    function showTela() {
+        $("#tela1").show();
+        document.getElementById('Videobox1').style.display=""
+    }
+});
+
+
+    </script>
+    
+</body>
+</html>

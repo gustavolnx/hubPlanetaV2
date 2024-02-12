@@ -1,0 +1,209 @@
+
+*{
+    overflow: hidden;
+}
+body{
+    margin: 0px;
+    overflow: hidden;
+    max-height: 100vw !important;
+    max-width: 100vh !important;
+}
+#cabecalho{
+  position: absolute;
+  z-index: 999;
+}
+#fundo {
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    background: url('');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.flex-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content-box {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin-left: 400px;
+ 
+    margin-top: 200px;
+  }
+
+  .content-box  img{
+    animation: fadeIn 0.7s ease-in-out;
+    width: 100%;
+    height:100%;
+    
+  }
+
+
+
+.btnconheca{
+    position: absolute;
+    top: 330px;
+    background-color: #36363700;
+    margin-left: -10px;
+    border: #36363700; 
+    z-index: 999;
+    animation: go-back 2.2s;
+    
+}
+.btnestrutura{
+    position: absolute;
+    top: 450px;
+    animation: go-back 1.7s;
+    background-color:#36363700;
+    margin-left: -10px;
+    border: #36363700; 
+    z-index: 999;
+    
+}
+.btnimagens{
+    position: absolute;
+    top: 570px;
+    animation: go-back 1.2s;
+    background-color: #36363700;
+    margin-left: -10px;
+    border: #36363700;
+    z-index: 999;
+    
+}
+.btnvista{
+  position: absolute;
+  top: 690px;
+  animation: go-back 1s;
+  background-color: #36363700;
+  margin-left: -10px;
+  border: #36363700;
+  z-index: 999;
+  
+}
+.btnvoltar{
+    position: absolute;
+    margin-left: 45px;
+    background-color: #36363700;
+    bottom: 10px;
+   
+    animation:go-top 2.7s;
+    border:#36363700;
+    z-index: 999;
+
+}
+
+.btnconceito{
+    position: absolute;
+    margin-left: 465px;
+    background-color:#363637;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#363637;
+    z-index: 999;
+
+}
+
+.btnficha{
+    position: absolute;
+    margin-left: 720px;
+    background-color: #363637;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#363637;
+    z-index: 999;
+
+}
+
+.btnarqui{
+    position: absolute;
+    margin-left: 975px;
+    background-color: #8d4423;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#8d4423;
+    z-index: 999;
+
+}
+
+.btnfacilits{
+    position: absolute;
+    margin-left: 1230px;
+    background-color: #363637;
+    bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    animation:go-top 2.7s;
+    border:#363637;
+    z-index: 999;
+
+}
+.logo{
+  position: absolute;
+  margin-left: 1601px;
+  background-color: #00233c00;
+  bottom:10px;
+
+ 
+  border:#ffffff00;
+}
+
+
+
+@keyframes go-top {
+    from {
+      transform: translateY(40px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+
+@keyframes go-back {
+    from {
+      transform: translateX(-250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+  @keyframes go-right {
+    from {
+      transform: translateX(250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+
+  @keyframes go-back-barra {
+    from {
+      transform: translateX(-550px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+

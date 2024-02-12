@@ -1,0 +1,233 @@
+* {
+  -webkit-animation: fadeIn 0.7s ease-in-out;
+  -moz-animation: fadeIn 0.7s ease-in-out;
+  -o-animation: fadeIn 0.7s ease-in-out;
+  animation: fadeIn 0.7s ease-in-out;
+  
+}
+
+
+body {
+  margin: 0;
+
+
+}
+
+span{
+margin-top: 740px;
+}
+.esquerda img{
+  width: 140px;
+  margin-left: 120px ;
+  margin-bottom: 300px ;
+  float: left;
+
+}
+.direita img{
+width: 140px;
+margin-right: 120px;
+  float: right;
+}
+.w3-content {
+  max-width: 1920px !important;
+  max-height: 1080px !important;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  background-color: black;
+}
+
+.w3-content img {
+  animation: zoom 15s infinite, fadeIn 1.5s ease-in-out;
+  
+}
+
+
+
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer
+}
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
+
+}
+.btnbia{
+
+
+background-color: #aa5525;
+float: left;
+margin-left: -960px;
+margin-top:-120px;
+animation:go-back 2.7s, vaievolta;
+box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.672);
+border: white ; 
+z-index: 999;
+position: absolute;
+
+
+}
+.btnestru{
+
+
+background-color: #aa5525;
+float: left;
+margin-left: -960px;
+margin-top:21px;
+animation:go-back 2.7s;
+box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.672);
+border: white ; 
+z-index: 999;
+position: absolute;
+
+
+}
+
+.btnlocal{
+
+
+background-color: #aa5525;
+float: left;
+margin-left: -960px;
+margin-top: 161px;
+animation:go-back 2.7s;
+box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.672);
+border: white ; 
+z-index: 999;
+position: absolute;
+
+
+}
+.btnap{
+
+
+background-color: #aa5525;
+float: left;
+margin-left: -960px;
+margin-top: 302px;
+animation:go-back 2.7s;
+box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.672);
+border: white ; 
+z-index: 999;
+position: absolute;
+
+
+}
+.btnimg{
+
+
+  background-color: #44403d;
+  float: left;
+  margin-left: -960px;
+  margin-top: 442px;
+  animation:go-back 2.7s;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.672);
+  border: white ; 
+  z-index: 999;
+  position: absolute;
+  
+  
+  }
+.btnvoltar{
+margin-top: 770px;
+background-color: #ffffff00;
+margin-left: -900px;
+border:#ffffff00;
+z-index: 999;
+position: absolute;
+animation:go-top 2.7s;
+
+}
+
+.btnimplantacao{
+margin-top: 778px;
+background-color:  #ffffff00;
+margin-left: -600px;
+border: #ffffff00;
+z-index: 999;
+position: absolute;
+animation:go-top 2.7s;
+
+}
+
+
+@-webkit-keyframes fadeIn {
+  0% {
+      opacity: 0.8;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+      opacity: 0.8;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+      opacity: 0.8;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes zoom {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.02);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+@keyframes go-back {
+from {
+  transform: translateX(-100px);
+}
+to {
+  transform: translateX(0);
+}
+} 
+
+@keyframes vaievolta {
+0%{
+  transform: translateX(0);
+}
+50%{
+  transform: translateX(-20px);
+}
+100%{
+  transform: translateX(0);
+}
+}
+@keyframes go-top {
+from {
+  transform: translateY(100px);
+}
+to {
+  transform: translateY(0);
+}
+} 

@@ -1,0 +1,256 @@
+*{
+    overflow: hidden;
+   
+}
+body{
+    margin: 0px;
+    overflow: hidden;
+    max-height: 100vw !important;
+    max-width: 100vh !important;
+    background-color:white
+}
+
+#cabecalho{
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: -53px; 
+  height: 100%;
+}
+#cabecalho img{
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+#textconceito{
+  position: absolute;
+  left: 450px;
+  top: 300px;
+  animation: fadeIn 2s ease-in-out ;;
+}
+
+#predio {
+max-width: 570px !important;
+max-height: 701px !important;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+overflow: hidden;
+margin-top: 230px;
+right: 0;
+position: absolute;
+animation:go-right 1.7s;
+}
+
+#img{
+max-width: 1100px !important;
+max-height: 701px !important;
+height: 100%;
+width: 100%;
+position: absolute;
+margin-left: 36px;
+top: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+}
+
+#img img {
+animation: zoom 20s infinite,  fadeIn 2s ease-in-out ;
+
+}
+.btnconheca{
+  position: absolute;
+  top: 300px;
+  animation: go-back 2.7s;
+  background-color:#aa5525;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+  
+}
+
+.btntitulo{
+    position: absolute;
+    top: 874px;
+    right: 180px;
+    background-color: #aa252500;
+    border: #aa562500;
+    z-index: 999;
+    animation:go-right 1.7s,  fadeIn 2s ease-in-out ;
+     
+  }
+  .txt img{
+    position: absolute;
+    float: left;
+    margin-top: 223px;
+    z-index: -1;
+    
+  
+   
+}
+.logo{
+  position: absolute;
+  margin-left: 1601px;
+  background-color: #00233c00;
+  bottom:10px;
+
+ 
+  border:#ffffff00;
+}
+
+
+  
+
+.btnestrutura{
+  position: absolute;
+  top: 430px;
+  animation: go-back 2.2s;
+  background-color: #44403d;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #44403d;
+  z-index: 999;
+   
+}
+ 
+.btnapartamento{
+  position: absolute;
+  top: 560px;
+  animation: go-back 1.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+ 
+.btnlocal{
+  position: absolute;
+  top: 690px;
+  animation: go-back 1.2s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+
+.btnimagem{
+  position: absolute;
+  top: 820px;
+  animation: go-back 0.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+
+.voltar{
+    position: absolute;
+    margin-left: 65px;
+    background-color: #ffffff00;
+    bottom: 10px;
+  
+    animation:go-top 1.2s;
+   
+    border:#ffffff00;
+    z-index: 999;
+
+}
+
+
+.btnsusten{
+    position: absolute;
+    margin-left: 465px;
+    background-color: #aa5525;
+    bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+    animation:go-top 1.2s;
+    border:#aa5525;
+    z-index: 999;
+
+}
+
+.btnficha{
+    position: absolute;
+    margin-left: 750px;
+    background-color: #aa5525;
+    bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+    animation:go-top 1.2s;
+    border:#aa5525;
+    z-index: 999;
+
+}
+
+.btnarqui{
+    position: absolute;
+    margin-left: 1035px;
+    background-color: #44403d;
+    bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+    animation:go-top 1.2s;
+    border:#44403d;
+    z-index: 999;
+
+}
+
+
+
+
+@keyframes go-top {
+    from {
+      transform: translateY(75px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+@keyframes go-back {
+  from {
+    transform: translateX(-250px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes go-selec {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(55px);
+    }
+  } 
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.07);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes go-right {
+    from {
+      transform: translateX(210px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 

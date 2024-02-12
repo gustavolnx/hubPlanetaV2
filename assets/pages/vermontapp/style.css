@@ -1,0 +1,119 @@
+
+
+*{
+    animation: fadeIn 0.7s ease-in-out;
+}
+body{
+    margin: 0px;
+    overflow: hidden;
+    max-height: 100vw !important;
+    max-width: 100vh !important;
+    background-image: url('./pages/assets/fundo-inicial.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fundo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+   
+    
+}
+#tela {
+    width: 100%!important;
+    height: auto !important;
+    position: absolute;
+    background-color: black;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.btnconheca{
+    position: absolute;
+    top: 430px;
+    background-color: transparent;  
+    
+    border: #282627 ; 
+    z-index: 9;
+    animation: go-back 2.2s;
+    
+}
+.btnestrutura{
+    position: absolute;
+    top: 550px;
+    animation: go-back 1.7s;
+    background-color: transparent;  
+    
+    border: #282627 ; 
+    z-index: 9;
+    
+}
+.btnimagens{
+    position: absolute;
+    top: 670px;
+    animation: go-back 1.2s;
+    background-color: transparent;  
+    
+    border: #282627 ; 
+    z-index: 9;
+    
+}
+.btnvista{
+    position: absolute;
+    top: 790px;
+    animation: go-back 1s;
+    background-color: transparent;  
+    
+    border: #282627 ; 
+    z-index: 9;
+    
+}
+
+#tela1 {
+    position: absolute;
+    width: 100%!important;
+    height: auto !important;
+    position: absolute;
+    background-color: black;
+    z-index: 999;
+    object-fit: cover;
+    
+    
+}
+
+.btnVoltar {
+	position: absolute;
+	top: 90%;
+	left: 0.2%;
+	background-image: url('../vermontapp/pages/assets/btn-voltar.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20%;
+	height: 5%;
+	z-index: 999;
+	cursor: pointer;
+}
+
+
+
+
+@keyframes go-back {
+    from {
+      transform: translateX(-250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+

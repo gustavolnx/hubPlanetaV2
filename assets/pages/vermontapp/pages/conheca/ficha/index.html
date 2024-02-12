@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="../../../src/img/tela/cabecalho.png" as='image'>
+    <link rel="preload" href='../../../src/img/btn/btnficha_selec.png' as="image"> 
+    <link rel="preload" href='../../../src/img/btn/btnconceito.png' as="image"> 
+    <link rel="preload" href='../../../src/img/btn/btnconheca_selec.png' as="image">
+    <link rel="preload" href='../../../src/img/btn/btnbaixofacillite.png' as="image">  
+    <link rel="preload" href='../../../src/img/btn/btnbaixolocal.png' as="image"> 
+    <link rel="preload" href='../../../src/img/btn/btnbaixoarqui.png' as="image"> 
+    <link rel="preload" href='../../../src/img/btn/btnestrutura.png' as="image"> 
+    <link rel="preload" href='../../../src/img/btn/btnimagens.png' as="image"> 
+    <link rel="preload" href='../../../src/img/imagens/txtficha.png' as="image"> 
+    <link rel="preload" href='../../../src/img/tela/ficha_tela.png' as="image"> 
+    <link rel="preload" href="../../../src/img/imagens/predioficha.png" as="image">
+    
+ 
+    <script src="../../../src/biblioteca/jquery.mine.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Vermont</title>
+</head>
+<body>
+<div id="fundo">
+  <div id="cabecalho">
+    <img src="../../assets/fundo-conheca-ficha.png" alt="image">
+  </div>
+  <div class="flex-box">
+    <div class="content-box"><img src='../../../src/img/tela/ficha_tela.png'>
+    </div> 
+  </div>
+  <div id="txtficha">
+   <img src="../../../src/img/imagens/txtficha.png" alt="iamge">
+  </div>
+    <div class="predio"><img src='../../../src/img/imagens/predioficha.png'></div>
+        <div id="conheca">
+            <form method="POST">
+                <button class="btnconheca" type="button" onClick="btnconhaca()"><img src='../../assets/btn-conheca-og.png'> </button>
+            </form>
+        </div>
+        
+
+        <div id="estrutura">
+            <form method="POST">
+                <button class="btnestrutura" type="button" onClick="btnestrutura()"><img src='../../assets/btn-estrutura.png'> </button>
+            </form>
+        </div>
+
+        <div id="imagens">
+            <form method="POST">
+                <button class="btnimagens" type="button" onClick="btnimagens()"><img src='../../assets/btn-imagens.png'> </button>
+            </form>
+        </div>
+
+        <div id="vista">
+          <form method="POST">
+              <button class="btnvista" type="button" onClick="btnvista()"><img src='../../assets/btn-vista.png'> </button>
+          </form>
+      </div>
+
+        <div id="conceito">
+            <form method="POST">
+              <button class="btnconceito" type="button" onClick="conceito()">
+                <img src="../../assets/btn-conceito-bk.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="ficha">
+            <form method="POST">
+              <button class="btnficha" type="button" onClick="ficha()">
+                <img src="../../assets/btn-ficha-og.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="aquitetura">
+            <form method="POST">
+              <button class="btnarqui" type="button" onClick="arqui()">
+                <img src="../../assets/btn-arquitetura-bk.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="facilites">
+            <form method="POST">
+              <button class="btnfacilits" type="button" onClick="facilites()">
+                <img src="../../assets/btn-facilities-bk.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="voltar">
+            <form method="POST">
+              <button class="btnvoltar" type="button" onClick="history.go(-1)">
+                <img src="../../assets/btn-voltar.png" />
+              </button>
+            </form>
+          </div>
+   
+
+
+
+
+    </div>
+
+    <script src="./function.js"></script>
+    <script>
+
+var segundos = 0;
+var timer = setInterval(testarInteracao, 1000); //1000 ms = 1 segundo
+
+function testarInteracao(){
+    segundos+= 1;
+    
+    if(segundos == 300){ //Limite máximo em Segundos
+        window.location.href = "../../../index.html";
+    } 
+    
+  
+}
+
+$(document).on("click keydown keyup mousemove", function(){
+    segundos = 0;
+})
+
+    </script>
+    
+</body>
+</html>

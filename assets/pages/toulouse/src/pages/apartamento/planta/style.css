@@ -1,0 +1,396 @@
+*{
+  overflow: hidden;
+ }
+
+body{
+    margin: 0;
+    background:black;
+    overflow: hidden;
+}
+@keyframes fadetela {
+  0% {
+      opacity: 0.8;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+#cabecalho{
+  
+  z-index: 999;
+  margin-top: -1020px;
+  height: 100%;
+  margin-left: -53px;
+}
+#cabecalho img{
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.fundo{
+ 
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+ z-index: -1;
+    background-size: cover;
+    background-color: #373230;
+    
+}
+.btnconheca{
+  position: absolute;
+  top: 300px;
+  animation: go-back 2.7s;
+  background-color:#aa5525;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 1;
+  
+}
+
+#circle{
+  position: absolute;
+  top: 960px;
+  animation: fadeIn 1.5s ease-in-out;
+  margin-left: 820px;
+}
+
+.btnestrutura{
+  position: absolute;
+  top: 430px;
+  animation: go-back 2.2s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+ 
+.btnapartamento{
+  position: absolute;
+  top: 560px;
+  animation: go-back 1.7s;
+  background-color: #44403d;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #44403d;
+  z-index: 999;
+   
+}
+ 
+.btnlocal{
+  position: absolute;
+  top: 690px;
+  animation: go-back 1.2s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+
+.btnimagem{
+  position: absolute;
+  top: 820px;
+  animation: go-back 0.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+
+.voltar{
+    position: absolute;
+    margin-left: 65px;
+    background-color: #ffffff00;
+    bottom: 10px;
+  
+    animation:go-top 1.2s;
+   
+    border:#ffffff00;
+    z-index: 999;
+
+}
+
+.diferencial{
+  position: absolute;
+ right: 635px;
+  background-color: #aa5525;
+  bottom: 25px;
+
+  animation:go-top 1.2s;
+ 
+  border:#aa5525;
+  z-index: 999;
+}
+.personaliza{
+  position: absolute;
+  right: 400px;
+  background-color: #aa5525;
+  bottom: 25px;
+
+  animation:go-top 1.2s;
+ 
+  border:#aa5525;
+  z-index: 999;
+}
+.vista{
+  position: absolute;
+  right: 65px;
+  background-color: #aa5525;
+  bottom: 25px;
+
+  animation:go-top 1.2s;
+ 
+  border:#aa5525;
+  z-index: 999;
+}
+ 
+#img{
+  position: relative;
+
+
+}
+
+#img img{
+  margin-top: 260px;
+  margin-left: 450px;
+}
+
+
+#imagens1 {
+  background-image: url('../../../assets/img/GRAFISMO\ copiar\ 5.png');
+  position: absolute;
+  margin-top: 233px;
+  margin-left: 1200px;
+  width:720px;
+  height: 700px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.494);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.2);
+  animation:go-direita 2.7s;
+  display: none;
+  z-index: -1;
+  
+  
+}
+
+#imagens1 img{
+    
+  width: 95%;
+  height: 100%;
+  margin: 0;
+  float: right;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+
+
+
+#sala{
+  background-color: #362e2c;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position:relative;
+  bottom: 520px;
+  left: 950px;
+  border: 0 none;
+  outline: 0;
+  transition: width 1s, height 1s,  background-color 1s;
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  z-index: 999;
+  color:white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ font: 30px bold;
+ cursor: pointer;
+ font-family: Barlow-Bold;
+  
+}
+
+#sala:focus {
+  background-color: #ab5522;
+  transition: width 1s, height 1s,  background-color 1s;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  border: 0 none;
+  outline: 0;
+  font-family: Barlow-Bold;
+}
+
+.quarto {
+  background-color: #362e2c;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position:relative;
+  bottom: 480px;
+  left: 1090px;
+  border: 0 none;
+  outline: 0;
+  transition: width 1s, height 1s,  background-color 1s;
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  z-index: 999;
+  color:white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ font: 30px bold;
+ cursor: pointer;
+ font-family: Barlow-Bold;
+  
+}
+
+.quarto:focus {
+  background-color: #ab5522;
+  transition: width 1s, height 1s,  background-color 1s;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  border: 0 none;
+  outline: 0;
+  font-family: Barlow-Bold;
+}
+
+.varanda {
+  background-color: #362e2c;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position:relative;
+  bottom: 290px;
+  left: 740px;
+  border: 0 none;
+  outline: 0;
+  transition: width 1s, height 1s,  background-color 1s;
+  -webkit-animation: fadeIn 1.5s ease-in-out;
+  -moz-animation: fadeIn 1.5s ease-in-out;
+  -o-animation: fadeIn 1.5s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  z-index: 999;
+  color:white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ font: 30px bold;
+ cursor: pointer;
+ font-family: Barlow-Bold;
+  
+}
+
+.varanda:focus {
+  background-color: #ab5522;
+  transition: width 1s, height 1s,  background-color 1s;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  box-shadow: -1px -1px 6px rgba(0, 0, 0, 0.419);
+  border: 0 none;
+  outline: 0;
+  font-family: Barlow-Bold;
+}
+
+
+@keyframes go-top {
+  from {
+    transform: translateY(150px);
+  }
+  to {
+    transform: translateY(0);
+  }
+} 
+
+@keyframes go-botton {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+} 
+
+@keyframes go-botton-selec {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0);
+  }
+} 
+
+@keyframes go-direita {
+  from {
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+
+@keyframes go-back {
+  from {
+    transform: translateX(-250px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+@keyframes go-selec {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+@keyframes zoom {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.07);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0.1;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+  
+@font-face {
+  font-family: Barlow-Bold;
+  src: url('../../../assets/biblioteca/Barlow-Bold.ttf');
+}
+.logo{
+  position: absolute;
+  margin-left: 1601px;
+  background-color: #00233c00;
+  bottom:10px;
+
+ 
+  border:#ffffff00;
+}

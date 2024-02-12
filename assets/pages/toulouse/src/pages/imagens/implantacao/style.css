@@ -1,0 +1,219 @@
+*{
+  overflow: hidden;
+ 
+}
+body{
+  margin: 0px;
+  overflow: hidden;
+  max-height: 100vw !important;
+  max-width: 100vh !important;
+  background-color: #373230;
+}
+
+#cabecalho{
+position: absolute;
+z-index: 999;
+top: 0;
+left: -53px; 
+height: 100%;
+}
+#cabecalho img{
+box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+.flex-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  margin-left: 500px;
+  width: 1100px;
+  height:680px;
+  margin-top: 320px;
+}
+
+  .content-box  img{
+    
+    width: 100%;
+    height:100%;
+    
+  }
+  .predio {
+    max-width: 725px !important;
+    
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 280px;
+    right: -100px;
+    position: absolute;
+    
+    animation:go-right 1.7s;
+   
+}
+#txtficha{
+      
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 420px;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+
+
+.btnconheca{
+  position: absolute;
+  top: 300px;
+  animation: go-back 2.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+  
+}
+.btnestrutura{
+  position: absolute;
+  top: 430px;
+  animation: go-back 2.2s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+.logo{
+  position: absolute;
+  margin-left: 1601px;
+  background-color: #00233c00;
+  bottom:10px;
+
+ 
+  border:#ffffff00;
+}
+ 
+.btnapartamento{
+  position: absolute;
+  top: 560px;
+  animation: go-back 1.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+ 
+.btnlocal{
+  position: absolute;
+  top: 690px;
+  animation: go-back 1.2s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+
+.btnimagem{
+  position: absolute;
+  top: 820px;
+  animation: go-back 0.7s;
+  background-color: #44403d;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #44403d;
+  z-index: 999;
+   
+}
+
+.voltar{
+    position: absolute;
+    margin-left: 65px;
+    background-color: #ffffff00;
+    bottom: 10px;
+  
+    animation:go-top 1.2s;
+   
+    border:#ffffff00;
+    z-index: 999;
+
+}
+@keyframes go-top {
+    from {
+      transform: translateY(40px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+
+@keyframes go-back {
+    from {
+      transform: translateX(-250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+  @keyframes go-right {
+    from {
+      transform: translateX(250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+
+  @keyframes go-back-barra {
+    from {
+      transform: translateX(-550px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  
+  }
+  100% {
+    transform: scale(1.3);
+    
+  }
+}
+
+
+@keyframes rote {
+  from {
+    transform: rotate(-45deg);
+}
+to { 
+    transform: rotate(45deg);
+}
+    
+  }
+

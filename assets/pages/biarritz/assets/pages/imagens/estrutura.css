@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body { 
+    width: 100%;
+    height: 100%;
+}
+
+.scene-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/fundo-imagens.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+}
+
+
+.btn-conheca {
+	width: 3%;
+	height: 12.9%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-conheca-vert.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 23%;
+	left: -0.5%;
+	rotate: 20%;
+	transform: rotate(0deg);
+}
+
+.btn-estrutura {
+	width: 3%;
+	height: 12.9%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-estrutura-ver.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 35%;
+	left: -0.5%;
+	rotate: 20%;
+	transform: rotate(0deg);
+}
+.btn-apartamentos {
+	width: 3%;
+	height: 12.9%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-apartamentos-vert.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 47%;
+	left: -0.5%;
+	rotate: 20%;
+	transform: rotate(0deg);
+}
+
+.btn-localizacao {
+	width: 3%;
+	height: 12.9%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-localizacao-vert.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 59.9%;
+	left: -0.5%;
+	rotate: 20%;
+	transform: rotate(0deg);
+}
+
+.btn-imagens {
+	width: 3%;
+	height: 12.9%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-imagens-vert.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 72.6%;
+	left: -0.5%;
+	rotate: 20%;
+	transform: rotate(0deg);
+}
+
+
+.btn-44m2 {
+	width: 10%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-44m2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 87%;
+	left: 23%;
+	z-index: 100;
+	display: block;
+}
+
+.btn-44m2-2 {
+	width: 10%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-44m2-select.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 87%;
+	left: 23%;
+	z-index: 100;
+    display: none;
+}
+
+
+.btn-45m2 {
+    width: 10%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-45m2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 87%;
+    left: 30%;
+    z-index: 100;
+    display: block;
+}
+
+.btn-45m2-2 {
+    width: 10%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-45m2-select.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 87%;
+    left: 30%;
+    z-index: 100;
+    display: none;
+}
+
+
+.btn-49m2 {
+    width: 10%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-49m2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 87%;
+    left: 37%;
+    z-index: 100;
+    display: block;
+
+}
+.btn-49m2-2 {
+    width: 10%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-49m2-select.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 87%;
+    left: 37%;
+    z-index: 100;
+    display: none;
+
+}
+
+
+.btn-70m2 {
+    width: 10%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-70m2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 87%;
+    left: 44%;
+    z-index: 100;
+    display: block;
+
+}
+.btn-70m2-2 {
+    width: 10%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-70m2.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 87%;
+    left: 44%;
+    z-index: 100;
+    display: none;
+
+}
+
+.btn-beneficios {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/btn-beneficios.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 65%;
+    z-index: 100;
+    display: block;
+}
+
+.btn-beneficios-2 {
+    width: 14%;
+    height: 6.3%;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../image/btn-beneficios-select.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 90%;
+    left: 65%;
+    z-index: 100;
+    display: none;
+}
+
+
+.btn-voltar {
+	width: 8.5%;
+	height: 6.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-voltar.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 90%;
+	left: 0%;
+	z-index: 100;
+}
+
+.scene-2 {
+	width: 100%;
+	height: 79%;
+	position: absolute;
+	z-index: 3;
+	top: 21.4%;
+	left: 0%;
+	opacity: 1;
+	/* border: 1px solid red; */
+}
+.btn-personaliza {
+	width: 25%;
+	height: 8.3%;
+	position: absolute;
+	z-index: 3;
+	background-image: url('../../image/btn-personaliza.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 88.5%;
+	left: 67%;
+	z-index: 100;
+	display: block;
+}
+
+.btn-right{
+	width: 3%;
+	height: 12.9%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-right.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 50%;
+	left: 94%;
+	rotate: 20%;
+	transform: rotate(0deg);
+	
+}
+
+.btn-left
+{
+	width: 3%;
+	height: 12.9%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-left.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 50%;
+	left: 4%;
+	rotate: 20%;
+	transform: rotate(0deg);
+}
+
+.btn-implantacao {
+	width: 13%;
+	height: 12.9%;
+	position: absolute;
+	z-index: 300;
+	background-image: url('../../image/btn-implantacao.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 90%;
+	left: 12.5%;
+	rotate: 20%;
+	/* transform: rotate(90deg); */
+}

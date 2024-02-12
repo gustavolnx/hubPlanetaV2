@@ -1,0 +1,203 @@
+*{
+    overflow: hidden;
+   
+}
+body{
+    margin: 0px;
+    overflow: hidden;
+    max-height: 100vw !important;
+    max-width: 100vh !important;
+    background-color: #373230;
+}
+
+
+
+#cabecalho{
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: -53px; 
+  height: 100%;
+}
+#cabecalho img{
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+  #textconceito{
+      position: absolute;
+      left: 450px;
+      top: 300px;
+      animation: fadeIn 2s ease-in-out ;;
+  }
+
+#predio {
+    max-width: 1050px !important;
+    max-height: 538px !important;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 330px;
+    margin-left: 900px;
+    position: absolute;
+    animation:go-right 1.7s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+}
+.extra{
+  background-color: #000000;
+  border: #000000;
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: 100px;
+  left: 284px;
+  z-index: 999;
+}
+.logo{
+  position: absolute;
+  margin-left: 1601px;
+  background-color: #00233c00;
+  bottom:10px;
+
+ 
+  border:#ffffff00;
+}
+
+.btnconheca{
+  position: absolute;
+  top: 300px;
+  animation: go-back 2.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+  
+}
+
+.btntitulo{
+    position: absolute;
+    top: 280px;
+    right: 0px;
+    
+    background-color: #aa5525;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+    border: #aa5525;
+    z-index: 1;
+    animation:go-right 1.7s,  fadeIn 2s ease-in-out ;
+     
+  }
+
+.btnestrutura{
+  position: absolute;
+  top: 430px;
+  animation: go-back 2.2s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+ 
+.btnapartamento{
+  position: absolute;
+  top: 560px;
+  animation: go-back 1.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+ 
+.btnlocal{
+  position: absolute;
+  top: 690px;
+  animation: go-back 1.2s;
+  background-color: #44403d;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #44403d;
+  z-index: 999;
+   
+}
+
+.btnimagem{
+  position: absolute;
+  top: 820px;
+  animation: go-back 0.7s;
+  background-color: #aa5525;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
+  border: #aa5525;
+  z-index: 999;
+   
+}
+
+.voltar{
+    position: absolute;
+    margin-left: 65px;
+    background-color: #ffffff00;
+    bottom: 10px;
+  
+    animation:go-top 1.2s;
+   
+    border:#ffffff00;
+    z-index: 999;
+
+}
+
+
+@keyframes go-top {
+    from {
+      transform: translateY(75px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+@keyframes go-back {
+  from {
+    transform: translateX(-250px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes go-selec {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(55px);
+    }
+  } 
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.07);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes go-right {
+    from {
+      transform: translateX(250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 

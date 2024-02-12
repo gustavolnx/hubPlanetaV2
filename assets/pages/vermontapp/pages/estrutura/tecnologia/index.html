@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../../src/biblioteca/jquery.mine.js"></script>
+    <link rel="preload" href="../../../src/img/imagens/tecfundo.png" as='image'>
+    <link rel="preload" href="../../../src/img/imagens/imgtec.png" as='image'>
+    <link rel="preload" href="../../../src/img/imagens/tectxt.png" as='image'>
+    <link rel="preload" href="../../../src/img/tela/cabecalho.png" as='image'>
+ 
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Vermont</title>
+</head>
+<body>
+<div id="fundo">
+  <div id="cabecalho">
+    <img src="../../assets/fundo-cabecalho.png" alt="image">
+  </div>
+  
+  <div class="txt"><img src="../../../src/img/imagens/tecfundo.png"></div>
+  <div id="predio"><img src="../../../src/img/imagens/imgtec.png" ></div>
+  <div id="txttec"><img src="../../../src/img/imagens/tectxt.png" ></div>
+
+
+        <div id="conheca">
+            <form method="POST">
+                <button class="btnconheca" type="button" onClick="btnconhaca()"><img src='../../assets/btn-conheca.png'> </button>
+            </form>
+        </div>
+
+        <div id="estrutura">
+            <form method="POST">
+                <button class="btnestrutura" type="button" onClick="btnestrutura()"><img src='../../assets/btn-estrutura-og.png'> </button>
+            </form>
+        </div>
+
+        <div id="imagens">
+            <form method="POST">
+                <button class="btnimagens" type="button" onClick="btnimagens()"><img src='../../assets/btn-imagens.png'> </button>
+            </form>
+        </div>
+
+        <!-- <div id="vista">
+          <form method="POST">
+              <button class="btnvista" type="button" onClick="btnvista()"><img src='../../assets/btn-vista.png'> </button>
+          </form>
+      </div> -->
+        <div id="sustentabilidade">
+            <form method="POST">
+              <button class="btnsuste" type="button" onClick="susten()">
+                <img src="../../assets/btn-sustentabilidade-bk.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="tec">
+            <form method="POST">
+              <button class="btntec" type="button" onClick="tec()">
+                <img src="../../assets/btn-tecnologia-og.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="voltar">
+            <form method="POST">
+              <button class="btnvoltar" type="button" onClick="history.go(-1)">
+                <img src="../../assets/btn-voltar.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="Dife">
+            <form method="POST">
+              <button class="btndife" type="button" onClick="dife()">
+                <img src="../../assets/btn-facilities-large-bk.png" />
+              </button>
+            </form>
+          </div>
+
+          <div id="PlantaPA">
+            <form method="POST">
+              <button class="btnplantapa" type="button" onClick="plantapa()">
+                <img src="../../assets/btn-plantas-padrao-bk.png" />
+              </button>
+            </form>
+          </div>
+
+
+
+
+    </div>
+
+    <script src="./function.js"></script>
+    
+    <script>
+      var segundos = 0;
+var timer = setInterval(testarInteracao, 1000); //1000 ms = 1 segundo
+
+function testarInteracao(){
+    segundos+= 1;
+    
+    if(segundos == 300){ //Limite máximo em Segundos
+        window.location.href = "../../../index.html";
+    } 
+    
+  
+}
+
+$(document).on("click keydown keyup mousemove", function(){
+    segundos = 0;
+})
+    </script>
+</body>
+</html>

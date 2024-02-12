@@ -1,0 +1,241 @@
+* {
+  
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+  
+}
+
+
+.cabecalho {
+  position: absolute;
+  z-index: 999;
+  animation: fadeIn 1s ease-in-out, go-topes 2.7s;
+  height: 100%;
+}
+
+span{
+  margin-top: 740px;
+}
+
+.logo{
+  margin-top: 780px;
+ background-color:  #ffffff00;
+  margin-left: 600px;
+  border: #ffffff00;
+  z-index: 999;
+  position: absolute;
+  
+
+}
+
+.esquerda {
+	width: 6%;
+	height: 31%;
+	/* border: 1px solid red; */
+	position: absolute;
+	z-index: 99999999999999;
+	opacity: 1;
+	top: 40%;
+	left: 2%;
+}
+.esquerda img {
+	/* width: 140px; */
+	/* margin-left: 120px; */
+	/* margin-bottom: 300px; */
+	/* float: left; */
+	width: 100%;
+	height: 100%;
+}
+
+.direita {
+	width: 6%;
+	height: 31%;
+	/* border: 1px solid red; */
+	position: absolute;
+	z-index: 99999999999999;
+	opacity: 1;
+	top: 40%;
+	left: 92%;
+}
+.direita img{
+  width: 100%;
+	height: 100%;
+}
+.w3-content {
+  max-width: 1920px !important;
+  max-height: 1080px !important;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  background-color: black;
+  margin-top: -0.8%; 
+}
+
+
+.w3-content img {
+    animation: zoom 15s infinite, fadeIna 1.5s ease-in-out;
+}
+
+
+
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+  
+}
+.btnbia{
+  
+  
+  background-color: #272526;
+  float: left;
+  margin-left: -980px;
+  margin-top:-140px;
+  animation:go-back 2.7s;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.672);
+  border: white ; 
+  z-index: 999;
+  position: absolute;
+ 
+ 
+}
+.btnestru{
+  
+ 
+  background-color: #272526;
+  float: left;
+  margin-left: -980px;
+  margin-top:34px;
+  animation:go-back 2.7s;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.672);
+  border: white ; 
+  z-index: 999;
+  position: absolute;
+ 
+  
+}
+
+.btnlocal{
+  
+
+  background-color: #682d18; 
+  float: left;
+  margin-left: -980px;
+  margin-top: 210px;
+  animation:go-back 2.7s;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.672);
+  border: white ; 
+  z-index: 999;
+  position: absolute;
+ 
+  
+}
+.btnap{
+  
+
+  background-color: #272526;
+  float: left;
+  margin-left: -980px;
+  margin-top: 384px;
+  animation:go-back 2.7s;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.672);
+  border: white ; 
+  z-index: 999;
+  position: absolute;
+  
+  
+}
+.btnvoltar{
+  position: absolute;
+  margin-left: 45px;
+  background-color: #36363700;
+  bottom: 10px;
+ 
+  animation:go-top 2.7s;
+  border:#36363700;
+  z-index: 999;
+
+}
+
+
+.implantacao {
+	position: absolute;
+	background-image: url(../assets/btn-implantacao-bk.png);
+	background-size: contain;
+	width: 16%;
+	height: 7%;
+	top: 93%;
+	left: 20%;
+	z-index: 999999999999;
+	/* margin-top: 68%; */
+	background-repeat: no-repeat;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeIna {
+  0% {
+      opacity: 0.4;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes go-back {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+@keyframes vaievolta {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-20px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+@keyframes go-top {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+} 

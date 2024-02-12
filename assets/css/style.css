@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+.scene-1 {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+
+}
+
+.logo-planeta {
+	position: absolute;
+	top: 28%;
+	left: 40%;
+	background-image: url(../img/logo-planeta.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/* border: 1px solid red; */
+	width: 20%;
+	height: 20%;
+}
+
+.btn-toulouse {
+	position: absolute;
+	top: 64%;
+	left: 15%;
+	background-image: url(../img/btn-toulouse.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/* border: 1px solid red; */
+	width: 20%;
+	height: 11%;
+}
+
+.btn-toulouse:hover {
+
+    background-image: url(../img/btn-toulouse-hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 11%;
+    cursor: pointer;
+
+}
+
+.btn-vermont {
+	position: absolute;
+	top: 64%;
+	left: 40%;
+	background-image: url(../img/btn-vermont.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	/* border: 1px solid red; */
+	width: 20%;
+	height: 11%;
+}
+
+.btn-vermont:hover {
+
+    background-image: url(../img/btn-vermont-hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 11%;
+    cursor: pointer;
+
+}
+
+.btn-biarritz {
+    position: absolute;
+    top: 64%;
+    left: 65%;
+    background-image: url(../img/btn-biarritz.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 11%;
+
+}
+
+.btn-biarritz:hover {
+
+    background-image: url(../img/btn-biarritz-hover.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 11%;
+    cursor: pointer;
+
+}
